@@ -127,7 +127,7 @@ class _CompassToolState extends State<CompassTool> {
                       height: 80,
                       width: double.infinity,
                       padding: EdgeInsets.all(15),
-                      color: Colors.blueAccent,
+                      color: Colors.blue.shade900,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: <Widget>[
