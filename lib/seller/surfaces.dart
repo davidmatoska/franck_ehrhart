@@ -16,7 +16,7 @@ class SurfacesState extends State<Surfaces> {
   static const LatLng _center = const LatLng(45.521563, -122.677433);
   final Set<Marker> _markers = {};
   final Set<Polygon> _polygons = {};
-  LatLng _lastMapPosition = _center;
+  //LatLng _lastMapPosition = _center;
   MapType _currentMapType = MapType.normal;
   List<LatLng> polyPoints = [];
   Location myLocation;
@@ -26,9 +26,9 @@ class SurfacesState extends State<Surfaces> {
     _controller.complete(controller);
   }
 
-  _onCameraMove(CameraPosition position) {
+  /*_onCameraMove(CameraPosition position) {
     _lastMapPosition = position.target;
-  }
+  }*/
 
   _onMapTypeButtonPressed() {
     setState(() {
@@ -144,7 +144,7 @@ class SurfacesState extends State<Surfaces> {
             mapType: _currentMapType,
             markers: _markers,
             polygons: _polygons,
-            onCameraMove: _onCameraMove,
+          /* onCameraMove: _onCameraMove, */
             myLocationEnabled: true,
             onTap: (LatLng latLng) {
               _onTapMarkerAdd(latLng);
