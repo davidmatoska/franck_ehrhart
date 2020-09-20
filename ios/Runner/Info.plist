@@ -41,15 +41,26 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSContactsUsageDescription</key>
+    <string>L'accès aux contacts est utile pour ajouter votre agent à vos contacts</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>L'accès à cette fonctionnalité aidera à la gestion des fichiers générés par l'application</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>L'application peut avoir besoin de stocker des photos prises par son biais</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>L'accès à cette fonctionnalité peut être utile pour ajouter des pièces jointes aux messages</string>
+    <key>NSMotionUsageDescription</key>
+    <string>Cette fonctionnalité est utile pour la capture d'images requise pour les outils de l'application</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>L'accès à cette fonctionnalité est théorique et aucune donnée n'a vocation à être transmise</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Cette application a besoin de votre position pour vous aider</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Cette application a besoin de votre position pour vous aider</string>
+    <key>NSCameraUsageDescription</key>
+    <string>L'accès à l'appareil photo est requis pour vous accompagner</string>
 
-	<key>NSCameraUsageDescription</key>
-    <string>L'accès à l'appreil photo est requis pour vous accompagner.</string>
 
-    <key>NSLocationWhenInUSageDescription</key>
-    <string>Cette application a besoin de votre position pour vous aider.</string>
-
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Pour déterminer l'orientation de la pièce</string>
 
    <key>io.flutter.embedded_views_preview</key>
    <true/>
