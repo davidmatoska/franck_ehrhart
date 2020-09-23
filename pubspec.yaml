@@ -1,5 +1,5 @@
 name: franck_ehrhart
-description: A new Flutter application.
+description: Une application qui aide les personnes à découvrir les points forts d'un quartier ou les accompagne dans la vente de leur bien immobilier.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
